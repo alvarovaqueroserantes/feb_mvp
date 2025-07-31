@@ -1,0 +1,537 @@
+jugador,tipo,accion,zona,inicio,fin,resultado
+Alberto Diaz,defensa,rotación,perímetro,0,4,Fallo
+Alberto Diaz,ataque,pase,perímetro,8,20,Exito
+Alberto Diaz,ataque,penetración,esquina,21,26,Fallo
+Alberto Diaz,ataque,corte,línea de tres,28,40,Fallo
+Alberto Diaz,ataque,tiro,perímetro,41,50,Exito
+Alberto Diaz,defensa,ayuda,perímetro,51,61,Fallo
+Alberto Diaz,ataque,penetración,zona,65,77,Fallo
+Alberto Diaz,ataque,bloqueo directo (sin balón),poste bajo,80,87,Exito
+Alberto Diaz,defensa,defensa del bloqueo,zona,91,102,Exito
+Alberto Diaz,defensa,closeout,poste bajo,106,114,Exito
+Alberto Diaz,defensa,defensa del bloqueo,perímetro,118,122,Exito
+Alberto Diaz,ataque,pase,poste bajo,126,136,Exito
+Alberto Diaz,defensa,closeout,zona central,141,151,Fallo
+Alberto Diaz,defensa,ayuda,zona central,156,164,Fallo
+Alberto Diaz,defensa,defensa balón,línea de tres,168,178,Fallo
+Alberto Diaz,defensa,ayuda,media distancia,180,184,Exito
+Alberto Diaz,defensa,closeout,línea de tres,186,192,Fallo
+Alberto Diaz,defensa,rotación,poste bajo,196,206,Fallo
+Alberto Diaz,defensa,ayuda,poste bajo,208,219,Exito
+Alberto Diaz,ataque,corte,esquina,223,230,Exito
+Alberto Diaz,ataque,pase,zona central,232,237,Fallo
+Alberto Diaz,ataque,bloqueo directo (con balón),esquina,241,245,Exito
+Alberto Diaz,defensa,defensa balón,esquina,247,252,Exito
+Alberto Diaz,defensa,rotación,perímetro,254,258,Exito
+Alberto Diaz,defensa,ayuda,zona central,260,264,Exito
+Alberto Diaz,ataque,corte,esquina,266,275,Fallo
+Alberto Diaz,ataque,corte,esquina,279,288,Exito
+Alberto Diaz,defensa,ayuda,perímetro,292,297,Fallo
+Alberto Diaz,ataque,tiro,perímetro,298,303,Exito
+Alberto Diaz,defensa,rotación,perímetro,308,314,Fallo
+Alberto Diaz,defensa,rotación,perímetro,317,328,Fallo
+Alberto Diaz,defensa,defensa del bloqueo,perímetro,331,337,Exito
+Alberto Diaz,ataque,bloqueo directo (con balón),poste bajo,341,353,Fallo
+Alberto Diaz,defensa,closeout,perímetro,358,369,Fallo
+Alberto Diaz,ataque,pase,zona,373,377,Exito
+Alberto Diaz,ataque,tiro,zona central,382,391,Fallo
+Alberto Diaz,ataque,bloqueo directo (con balón),media distancia,394,398,Fallo
+Alberto Diaz,ataque,pase,zona,399,411,Exito
+Alberto Diaz,ataque,corte,media distancia,413,421,Exito
+Alberto Diaz,defensa,rotación,línea de tres,422,428,Fallo
+Alberto Diaz,defensa,rotación,perímetro,429,435,Fallo
+Alberto Diaz,defensa,ayuda,línea de tres,436,440,Exito
+Alberto Diaz,defensa,rotación,esquina,443,451,Exito
+Alberto Diaz,defensa,defensa balón,media distancia,453,458,Exito
+Alberto Diaz,defensa,closeout,poste bajo,462,467,Fallo
+Alberto Diaz,ataque,penetración,zona central,470,474,Fallo
+Alberto Diaz,defensa,defensa del bloqueo,línea de tres,477,488,Exito
+Alberto Diaz,defensa,defensa balón,zona central,493,499,Exito
+Alberto Diaz,defensa,ayuda,zona,500,511,Exito
+Alberto Diaz,defensa,ayuda,poste bajo,512,523,Exito
+Alberto Diaz,defensa,ayuda,zona central,525,534,Exito
+Alberto Diaz,defensa,defensa balón,poste bajo,537,542,Fallo
+Alberto Diaz,defensa,defensa balón,esquina,543,554,Fallo
+Alberto Diaz,defensa,rotación,esquina,557,568,Fallo
+Alberto Diaz,defensa,defensa del bloqueo,perímetro,570,574,Fallo
+Alberto Diaz,ataque,corte,perímetro,575,581,Fallo
+Alberto Diaz,defensa,defensa del bloqueo,zona central,584,595,Fallo
+Alberto Abalde,defensa,defensa balón,esquina,0,11,Exito
+Alberto Abalde,ataque,bloqueo directo (sin balón),zona central,15,23,Exito
+Alberto Abalde,ataque,bloqueo directo (con balón),línea de tres,28,35,Exito
+Alberto Abalde,ataque,penetración,zona,39,46,Fallo
+Alberto Abalde,ataque,tiro,media distancia,49,53,Fallo
+Alberto Abalde,ataque,tiro,media distancia,54,61,Exito
+Alberto Abalde,defensa,closeout,poste bajo,62,70,Exito
+Alberto Abalde,ataque,tiro,media distancia,73,82,Exito
+Alberto Abalde,ataque,bloqueo directo (sin balón),poste bajo,85,93,Exito
+Alberto Abalde,defensa,rotación,línea de tres,95,100,Exito
+Alberto Abalde,defensa,ayuda,media distancia,104,109,Exito
+Alberto Abalde,ataque,pase,media distancia,114,121,Fallo
+Alberto Abalde,ataque,pase,zona central,124,133,Exito
+Alberto Abalde,defensa,defensa balón,poste bajo,136,147,Fallo
+Alberto Abalde,defensa,defensa del bloqueo,zona central,152,158,Fallo
+Alberto Abalde,defensa,defensa del bloqueo,zona,162,171,Fallo
+Alberto Abalde,defensa,rotación,zona,175,186,Fallo
+Alberto Abalde,ataque,bloqueo directo (con balón),línea de tres,188,199,Exito
+Alberto Abalde,defensa,rotación,esquina,204,214,Fallo
+Alberto Abalde,ataque,penetración,esquina,217,225,Fallo
+Alberto Abalde,ataque,corte,media distancia,229,235,Exito
+Alberto Abalde,defensa,defensa del bloqueo,perímetro,236,248,Exito
+Alberto Abalde,ataque,bloqueo directo (con balón),línea de tres,249,255,Exito
+Alberto Abalde,defensa,ayuda,zona,257,269,Fallo
+Alberto Abalde,ataque,bloqueo directo (sin balón),perímetro,270,278,Exito
+Alberto Abalde,defensa,defensa balón,esquina,281,293,Exito
+Alberto Abalde,ataque,penetración,línea de tres,313,322,Fallo
+Alberto Abalde,ataque,corte,línea de tres,323,331,Fallo
+Alberto Abalde,ataque,corte,perímetro,336,348,Exito
+Alberto Abalde,ataque,bloqueo directo (con balón),poste bajo,349,360,Exito
+Alberto Abalde,ataque,pase,media distancia,361,368,Exito
+Alberto Abalde,ataque,corte,línea de tres,372,377,Fallo
+Alberto Abalde,ataque,bloqueo directo (con balón),media distancia,381,392,Exito
+Alberto Abalde,ataque,penetración,media distancia,396,400,Exito
+Alberto Abalde,defensa,defensa balón,zona,401,409,Fallo
+Alberto Abalde,ataque,tiro,esquina,411,421,Fallo
+Alberto Abalde,ataque,bloqueo directo (sin balón),esquina,426,438,Exito
+Alberto Abalde,ataque,bloqueo directo (con balón),línea de tres,442,448,Exito
+Alberto Abalde,defensa,closeout,zona,451,463,Fallo
+Alberto Abalde,defensa,ayuda,media distancia,465,476,Exito
+Alberto Abalde,ataque,pase,poste bajo,477,485,Exito
+Alberto Abalde,defensa,defensa balón,zona central,490,499,Fallo
+Alberto Abalde,ataque,penetración,línea de tres,502,513,Exito
+Alberto Abalde,ataque,pase,esquina,518,525,Fallo
+Alberto Abalde,defensa,rotación,esquina,526,534,Fallo
+Alberto Abalde,ataque,tiro,línea de tres,535,540,Fallo
+Alberto Abalde,defensa,defensa balón,perímetro,542,554,Exito
+Alberto Abalde,ataque,pase,perímetro,555,562,Fallo
+Alberto Abalde,ataque,pase,zona,565,576,Exito
+Alberto Abalde,ataque,pase,esquina,578,586,Exito
+Alberto Abalde,ataque,bloqueo directo (sin balón),esquina,588,593,Fallo
+Joel Parra,defensa,rotación,zona,0,12,Exito
+Joel Parra,defensa,defensa balón,perímetro,17,29,Exito
+Joel Parra,defensa,defensa balón,zona,30,35,Fallo
+Joel Parra,ataque,corte,media distancia,38,43,Fallo
+Joel Parra,ataque,bloqueo directo (con balón),zona,48,57,Exito
+Joel Parra,defensa,rotación,poste bajo,58,66,Fallo
+Joel Parra,defensa,defensa del bloqueo,poste bajo,67,73,Fallo
+Joel Parra,defensa,rotación,perímetro,78,89,Exito
+Joel Parra,defensa,defensa del bloqueo,media distancia,91,95,Exito
+Joel Parra,defensa,closeout,línea de tres,99,109,Fallo
+Joel Parra,defensa,defensa del bloqueo,perímetro,113,117,Fallo
+Joel Parra,defensa,rotación,zona central,120,130,Exito
+Joel Parra,ataque,penetración,media distancia,131,143,Exito
+Joel Parra,defensa,rotación,línea de tres,145,153,Exito
+Joel Parra,ataque,bloqueo directo (sin balón),media distancia,154,160,Fallo
+Joel Parra,ataque,penetración,zona,164,172,Exito
+Joel Parra,defensa,closeout,poste bajo,175,185,Fallo
+Joel Parra,ataque,pase,perímetro,189,199,Exito
+Joel Parra,defensa,rotación,zona,201,212,Exito
+Joel Parra,ataque,corte,poste bajo,214,224,Fallo
+Joel Parra,defensa,defensa del bloqueo,poste bajo,227,238,Exito
+Joel Parra,defensa,closeout,esquina,241,248,Fallo
+Joel Parra,defensa,rotación,zona,249,261,Fallo
+Joel Parra,ataque,penetración,esquina,264,272,Fallo
+Joel Parra,ataque,pase,zona central,277,286,Exito
+Joel Parra,ataque,bloqueo directo (con balón),línea de tres,288,299,Exito
+Joel Parra,ataque,corte,media distancia,301,308,Fallo
+Joel Parra,ataque,corte,poste bajo,313,318,Fallo
+Joel Parra,defensa,ayuda,zona central,320,326,Fallo
+Joel Parra,ataque,bloqueo directo (sin balón),poste bajo,331,339,Exito
+Joel Parra,ataque,tiro,perímetro,343,349,Fallo
+Joel Parra,defensa,defensa del bloqueo,media distancia,353,359,Exito
+Joel Parra,defensa,defensa del bloqueo,perímetro,364,375,Exito
+Joel Parra,defensa,defensa del bloqueo,zona central,380,386,Exito
+Joel Parra,ataque,penetración,zona,387,393,Exito
+Joel Parra,defensa,rotación,perímetro,395,406,Exito
+Joel Parra,defensa,defensa del bloqueo,perímetro,409,416,Exito
+Joel Parra,ataque,penetración,media distancia,420,430,Exito
+Joel Parra,ataque,bloqueo directo (con balón),perímetro,433,445,Fallo
+Joel Parra,defensa,defensa balón,poste bajo,450,460,Exito
+Joel Parra,defensa,rotación,poste bajo,464,470,Exito
+Joel Parra,ataque,corte,media distancia,471,475,Exito
+Joel Parra,ataque,penetración,perímetro,480,484,Exito
+Joel Parra,defensa,rotación,zona central,489,493,Fallo
+Joel Parra,defensa,defensa balón,perímetro,496,508,Fallo
+Joel Parra,ataque,penetración,esquina,510,514,Exito
+Joel Parra,ataque,penetración,zona,517,523,Exito
+Joel Parra,ataque,tiro,esquina,525,530,Fallo
+Joel Parra,ataque,bloqueo directo (con balón),zona,532,536,Exito
+Joel Parra,ataque,pase,poste bajo,537,549,Exito
+Joel Parra,ataque,penetración,línea de tres,554,564,Fallo
+Joel Parra,ataque,tiro,poste bajo,565,570,Exito
+Joel Parra,defensa,ayuda,media distancia,574,581,Exito
+Joel Parra,ataque,bloqueo directo (con balón),zona,584,593,Fallo
+Santi Aldama,defensa,defensa del bloqueo,poste bajo,0,8,Fallo
+Santi Aldama,ataque,tiro,media distancia,10,21,Exito
+Santi Aldama,ataque,bloqueo directo (sin balón),media distancia,24,32,Exito
+Santi Aldama,defensa,closeout,esquina,34,39,Fallo
+Santi Aldama,defensa,defensa del bloqueo,media distancia,44,49,Fallo
+Santi Aldama,defensa,ayuda,zona central,52,57,Exito
+Santi Aldama,ataque,tiro,poste bajo,59,64,Exito
+Santi Aldama,defensa,defensa del bloqueo,zona,69,78,Exito
+Santi Aldama,ataque,penetración,línea de tres,82,86,Fallo
+Santi Aldama,ataque,penetración,zona central,89,97,Exito
+Santi Aldama,defensa,closeout,media distancia,99,107,Exito
+Santi Aldama,ataque,bloqueo directo (con balón),línea de tres,109,119,Exito
+Santi Aldama,defensa,ayuda,zona central,123,128,Fallo
+Santi Aldama,defensa,defensa balón,perímetro,132,138,Exito
+Santi Aldama,defensa,defensa del bloqueo,poste bajo,143,147,Exito
+Santi Aldama,defensa,defensa balón,zona central,150,157,Fallo
+Santi Aldama,ataque,corte,zona,162,168,Fallo
+Santi Aldama,ataque,bloqueo directo (sin balón),media distancia,173,182,Exito
+Santi Aldama,ataque,corte,poste bajo,184,195,Fallo
+Santi Aldama,defensa,ayuda,perímetro,213,221,Exito
+Santi Aldama,ataque,pase,esquina,226,234,Exito
+Santi Aldama,defensa,defensa balón,zona central,235,239,Exito
+Santi Aldama,defensa,rotación,poste bajo,241,246,Exito
+Santi Aldama,ataque,penetración,línea de tres,251,261,Exito
+Santi Aldama,ataque,pase,línea de tres,264,270,Exito
+Santi Aldama,ataque,pase,esquina,271,279,Exito
+Santi Aldama,ataque,bloqueo directo (con balón),esquina,281,289,Fallo
+Santi Aldama,ataque,penetración,poste bajo,293,302,Fallo
+Santi Aldama,ataque,bloqueo directo (sin balón),media distancia,307,314,Exito
+Santi Aldama,ataque,bloqueo directo (sin balón),media distancia,315,322,Exito
+Santi Aldama,defensa,closeout,media distancia,327,336,Fallo
+Santi Aldama,ataque,tiro,media distancia,341,345,Exito
+Santi Aldama,defensa,defensa balón,perímetro,348,355,Fallo
+Santi Aldama,ataque,penetración,esquina,358,369,Exito
+Santi Aldama,ataque,tiro,esquina,372,383,Exito
+Santi Aldama,defensa,defensa del bloqueo,zona,387,396,Exito
+Santi Aldama,defensa,defensa del bloqueo,línea de tres,398,402,Exito
+Santi Aldama,defensa,closeout,poste bajo,403,413,Fallo
+Santi Aldama,ataque,corte,media distancia,414,424,Fallo
+Santi Aldama,defensa,ayuda,zona central,429,440,Exito
+Santi Aldama,ataque,penetración,media distancia,445,449,Exito
+Santi Aldama,ataque,bloqueo directo (con balón),perímetro,451,457,Exito
+Santi Aldama,ataque,penetración,zona central,458,467,Fallo
+Santi Aldama,defensa,defensa del bloqueo,poste bajo,470,477,Fallo
+Santi Aldama,ataque,bloqueo directo (sin balón),zona,479,485,Fallo
+Santi Aldama,defensa,ayuda,poste bajo,488,497,Fallo
+Santi Aldama,ataque,pase,perímetro,501,508,Exito
+Santi Aldama,defensa,rotación,poste bajo,512,518,Fallo
+Santi Aldama,defensa,ayuda,perímetro,519,528,Fallo
+Santi Aldama,ataque,bloqueo directo (con balón),perímetro,530,542,Exito
+Santi Aldama,ataque,penetración,media distancia,547,554,Exito
+Santi Aldama,ataque,bloqueo directo (sin balón),línea de tres,556,566,Exito
+Santi Aldama,ataque,tiro,perímetro,571,582,Exito
+Santi Aldama,ataque,pase,perímetro,587,597,Fallo
+Jaime Pradilla,ataque,bloqueo directo (sin balón),perímetro,0,7,Exito
+Jaime Pradilla,defensa,rotación,esquina,11,19,Fallo
+Jaime Pradilla,ataque,tiro,media distancia,21,26,Exito
+Jaime Pradilla,ataque,penetración,media distancia,27,36,Exito
+Jaime Pradilla,defensa,closeout,poste bajo,40,45,Fallo
+Jaime Pradilla,ataque,pase,poste bajo,48,57,Exito
+Jaime Pradilla,defensa,defensa balón,poste bajo,58,69,Exito
+Jaime Pradilla,defensa,rotación,línea de tres,72,81,Exito
+Jaime Pradilla,ataque,corte,zona,83,87,Fallo
+Jaime Pradilla,defensa,defensa del bloqueo,poste bajo,91,102,Exito
+Jaime Pradilla,defensa,ayuda,perímetro,106,112,Exito
+Jaime Pradilla,defensa,ayuda,esquina,113,125,Exito
+Jaime Pradilla,ataque,bloqueo directo (sin balón),zona,127,134,Exito
+Jaime Pradilla,ataque,bloqueo directo (con balón),poste bajo,135,144,Exito
+Jaime Pradilla,ataque,penetración,esquina,149,156,Exito
+Jaime Pradilla,ataque,tiro,media distancia,159,167,Exito
+Jaime Pradilla,ataque,bloqueo directo (sin balón),poste bajo,169,181,Exito
+Jaime Pradilla,defensa,ayuda,poste bajo,183,194,Fallo
+Jaime Pradilla,defensa,closeout,perímetro,197,208,Fallo
+Jaime Pradilla,defensa,closeout,esquina,213,217,Exito
+Jaime Pradilla,ataque,penetración,media distancia,222,226,Exito
+Jaime Pradilla,defensa,defensa del bloqueo,zona,227,231,Fallo
+Jaime Pradilla,ataque,corte,poste bajo,233,240,Exito
+Jaime Pradilla,ataque,bloqueo directo (con balón),línea de tres,242,249,Fallo
+Jaime Pradilla,ataque,bloqueo directo (sin balón),zona central,254,260,Exito
+Jaime Pradilla,ataque,penetración,poste bajo,265,274,Exito
+Jaime Pradilla,defensa,defensa del bloqueo,esquina,279,287,Fallo
+Jaime Pradilla,ataque,corte,poste bajo,314,321,Fallo
+Jaime Pradilla,defensa,rotación,esquina,325,336,Fallo
+Jaime Pradilla,defensa,closeout,línea de tres,338,346,Exito
+Jaime Pradilla,defensa,rotación,perímetro,349,355,Fallo
+Jaime Pradilla,defensa,ayuda,media distancia,360,366,Exito
+Jaime Pradilla,defensa,rotación,poste bajo,368,377,Fallo
+Jaime Pradilla,ataque,penetración,poste bajo,379,385,Fallo
+Jaime Pradilla,defensa,defensa balón,zona,387,394,Fallo
+Jaime Pradilla,defensa,ayuda,esquina,397,409,Fallo
+Jaime Pradilla,defensa,defensa del bloqueo,poste bajo,410,421,Fallo
+Jaime Pradilla,defensa,rotación,esquina,423,429,Exito
+Jaime Pradilla,defensa,rotación,perímetro,430,435,Fallo
+Jaime Pradilla,defensa,ayuda,poste bajo,437,446,Fallo
+Jaime Pradilla,ataque,bloqueo directo (sin balón),línea de tres,449,454,Fallo
+Jaime Pradilla,defensa,defensa del bloqueo,esquina,459,468,Exito
+Jaime Pradilla,ataque,bloqueo directo (con balón),esquina,471,475,Fallo
+Jaime Pradilla,defensa,defensa balón,zona,477,485,Exito
+Jaime Pradilla,defensa,defensa balón,línea de tres,490,502,Fallo
+Jaime Pradilla,defensa,defensa del bloqueo,zona central,504,516,Exito
+Jaime Pradilla,ataque,tiro,poste bajo,521,532,Fallo
+Jaime Pradilla,ataque,corte,poste bajo,535,540,Fallo
+Jaime Pradilla,ataque,corte,perímetro,544,555,Fallo
+Jaime Pradilla,defensa,closeout,perímetro,560,572,Exito
+Jaime Pradilla,defensa,closeout,zona central,573,585,Exito
+Jaime Pradilla,defensa,defensa balón,poste bajo,589,594,Exito
+Sergio de Larrea,ataque,pase,línea de tres,0,12,Exito
+Sergio de Larrea,ataque,penetración,esquina,15,21,Exito
+Sergio de Larrea,ataque,bloqueo directo (sin balón),media distancia,24,29,Fallo
+Sergio de Larrea,defensa,defensa balón,zona central,31,39,Exito
+Sergio de Larrea,ataque,bloqueo directo (con balón),perímetro,40,50,Fallo
+Sergio de Larrea,ataque,bloqueo directo (con balón),perímetro,52,61,Fallo
+Sergio de Larrea,ataque,bloqueo directo (con balón),media distancia,64,75,Exito
+Sergio de Larrea,ataque,bloqueo directo (sin balón),media distancia,78,88,Exito
+Sergio de Larrea,ataque,bloqueo directo (sin balón),zona central,92,96,Exito
+Sergio de Larrea,defensa,closeout,zona,97,105,Exito
+Sergio de Larrea,ataque,corte,zona,109,117,Exito
+Sergio de Larrea,ataque,corte,línea de tres,119,126,Exito
+Sergio de Larrea,ataque,corte,media distancia,131,137,Exito
+Sergio de Larrea,ataque,penetración,zona central,142,151,Fallo
+Sergio de Larrea,defensa,defensa del bloqueo,línea de tres,156,163,Exito
+Sergio de Larrea,defensa,rotación,media distancia,165,171,Exito
+Sergio de Larrea,defensa,defensa balón,poste bajo,173,183,Exito
+Sergio de Larrea,defensa,closeout,media distancia,187,198,Exito
+Sergio de Larrea,ataque,pase,perímetro,214,224,Fallo
+Sergio de Larrea,ataque,corte,línea de tres,227,233,Exito
+Sergio de Larrea,ataque,bloqueo directo (sin balón),zona central,236,244,Exito
+Sergio de Larrea,ataque,bloqueo directo (con balón),línea de tres,248,256,Fallo
+Sergio de Larrea,ataque,bloqueo directo (con balón),poste bajo,261,267,Exito
+Sergio de Larrea,ataque,tiro,poste bajo,270,275,Exito
+Sergio de Larrea,ataque,corte,esquina,277,282,Exito
+Sergio de Larrea,defensa,closeout,poste bajo,285,295,Exito
+Sergio de Larrea,defensa,rotación,esquina,300,311,Exito
+Sergio de Larrea,ataque,bloqueo directo (con balón),esquina,313,322,Exito
+Sergio de Larrea,defensa,closeout,esquina,324,333,Exito
+Sergio de Larrea,ataque,pase,zona,336,342,Exito
+Sergio de Larrea,ataque,bloqueo directo (sin balón),poste bajo,346,356,Exito
+Sergio de Larrea,ataque,bloqueo directo (con balón),perímetro,360,370,Exito
+Sergio de Larrea,defensa,ayuda,perímetro,372,376,Exito
+Sergio de Larrea,ataque,tiro,esquina,381,393,Fallo
+Sergio de Larrea,ataque,pase,zona,397,409,Exito
+Sergio de Larrea,defensa,ayuda,zona central,413,422,Exito
+Sergio de Larrea,defensa,ayuda,media distancia,426,433,Fallo
+Sergio de Larrea,ataque,bloqueo directo (sin balón),media distancia,435,443,Fallo
+Sergio de Larrea,ataque,penetración,esquina,447,451,Exito
+Sergio de Larrea,defensa,rotación,zona central,456,468,Exito
+Sergio de Larrea,ataque,pase,zona central,469,476,Exito
+Sergio de Larrea,ataque,penetración,línea de tres,480,492,Exito
+Sergio de Larrea,ataque,bloqueo directo (sin balón),perímetro,493,504,Exito
+Sergio de Larrea,ataque,penetración,línea de tres,509,520,Fallo
+Sergio de Larrea,ataque,penetración,media distancia,523,532,Fallo
+Sergio de Larrea,ataque,tiro,perímetro,534,546,Exito
+Sergio de Larrea,defensa,defensa balón,perímetro,548,558,Fallo
+Sergio de Larrea,ataque,bloqueo directo (con balón),zona central,563,574,Fallo
+Sergio de Larrea,defensa,defensa del bloqueo,zona central,579,586,Fallo
+Dario Brizuela,ataque,penetración,esquina,0,7,Exito
+Dario Brizuela,ataque,tiro,zona central,11,15,Fallo
+Dario Brizuela,ataque,tiro,línea de tres,18,27,Fallo
+Dario Brizuela,ataque,bloqueo directo (sin balón),línea de tres,31,36,Exito
+Dario Brizuela,ataque,bloqueo directo (sin balón),perímetro,40,50,Exito
+Dario Brizuela,ataque,penetración,media distancia,53,58,Fallo
+Dario Brizuela,ataque,tiro,zona central,61,73,Fallo
+Dario Brizuela,ataque,pase,perímetro,78,88,Fallo
+Dario Brizuela,defensa,closeout,esquina,90,102,Fallo
+Dario Brizuela,ataque,bloqueo directo (sin balón),línea de tres,107,114,Exito
+Dario Brizuela,ataque,pase,perímetro,115,125,Exito
+Dario Brizuela,ataque,tiro,media distancia,130,134,Exito
+Dario Brizuela,ataque,bloqueo directo (con balón),esquina,136,146,Exito
+Dario Brizuela,defensa,closeout,línea de tres,149,157,Fallo
+Dario Brizuela,ataque,corte,perímetro,162,171,Fallo
+Dario Brizuela,defensa,closeout,esquina,176,188,Fallo
+Dario Brizuela,ataque,bloqueo directo (sin balón),línea de tres,190,202,Exito
+Dario Brizuela,ataque,penetración,perímetro,204,210,Exito
+Dario Brizuela,ataque,bloqueo directo (con balón),zona,213,220,Fallo
+Dario Brizuela,ataque,tiro,zona central,225,237,Fallo
+Dario Brizuela,ataque,penetración,perímetro,242,251,Exito
+Dario Brizuela,defensa,defensa del bloqueo,zona central,254,265,Exito
+Dario Brizuela,ataque,pase,perímetro,270,280,Exito
+Dario Brizuela,ataque,bloqueo directo (con balón),poste bajo,285,290,Exito
+Dario Brizuela,ataque,corte,línea de tres,291,303,Exito
+Dario Brizuela,defensa,defensa balón,perímetro,308,315,Exito
+Dario Brizuela,ataque,corte,perímetro,320,331,Fallo
+Dario Brizuela,ataque,tiro,perímetro,332,337,Fallo
+Dario Brizuela,defensa,defensa balón,perímetro,340,345,Fallo
+Dario Brizuela,ataque,bloqueo directo (sin balón),línea de tres,347,355,Exito
+Dario Brizuela,ataque,pase,zona central,357,366,Exito
+Dario Brizuela,ataque,bloqueo directo (sin balón),línea de tres,368,377,Exito
+Dario Brizuela,ataque,corte,esquina,381,386,Fallo
+Dario Brizuela,ataque,penetración,poste bajo,387,399,Exito
+Dario Brizuela,defensa,defensa del bloqueo,esquina,400,407,Exito
+Dario Brizuela,ataque,penetración,poste bajo,410,420,Fallo
+Dario Brizuela,ataque,pase,esquina,423,435,Exito
+Dario Brizuela,ataque,bloqueo directo (con balón),poste bajo,439,446,Fallo
+Dario Brizuela,defensa,rotación,esquina,448,455,Exito
+Dario Brizuela,defensa,defensa del bloqueo,esquina,459,465,Exito
+Dario Brizuela,ataque,tiro,zona,468,475,Fallo
+Dario Brizuela,defensa,closeout,zona,478,483,Fallo
+Dario Brizuela,ataque,penetración,poste bajo,488,492,Exito
+Dario Brizuela,defensa,closeout,esquina,495,505,Fallo
+Dario Brizuela,ataque,penetración,zona central,506,515,Fallo
+Dario Brizuela,ataque,bloqueo directo (sin balón),línea de tres,520,527,Fallo
+Dario Brizuela,defensa,defensa balón,perímetro,532,536,Fallo
+Dario Brizuela,ataque,corte,línea de tres,539,543,Fallo
+Dario Brizuela,ataque,corte,media distancia,545,557,Exito
+Dario Brizuela,defensa,defensa balón,esquina,560,565,Exito
+Dario Brizuela,ataque,bloqueo directo (sin balón),poste bajo,566,575,Exito
+Dario Brizuela,ataque,bloqueo directo (con balón),zona central,577,582,Fallo
+Dario Brizuela,ataque,corte,media distancia,584,588,Exito
+Josep Puerto,defensa,ayuda,perímetro,0,10,Exito
+Josep Puerto,ataque,bloqueo directo (con balón),zona,11,22,Exito
+Josep Puerto,ataque,corte,zona,27,39,Exito
+Josep Puerto,ataque,pase,zona,40,44,Exito
+Josep Puerto,ataque,penetración,zona,45,49,Exito
+Josep Puerto,ataque,tiro,media distancia,51,56,Exito
+Josep Puerto,ataque,corte,zona central,57,69,Exito
+Josep Puerto,ataque,pase,línea de tres,72,82,Exito
+Josep Puerto,ataque,corte,esquina,84,90,Fallo
+Josep Puerto,ataque,tiro,zona,95,102,Exito
+Josep Puerto,defensa,ayuda,zona,106,113,Exito
+Josep Puerto,ataque,penetración,media distancia,116,127,Exito
+Josep Puerto,ataque,penetración,zona central,128,136,Fallo
+Josep Puerto,defensa,defensa balón,perímetro,138,145,Exito
+Josep Puerto,defensa,rotación,poste bajo,147,157,Fallo
+Josep Puerto,ataque,corte,poste bajo,158,165,Exito
+Josep Puerto,ataque,tiro,media distancia,169,180,Exito
+Josep Puerto,ataque,penetración,perímetro,182,187,Fallo
+Josep Puerto,defensa,rotación,media distancia,191,196,Exito
+Josep Puerto,ataque,bloqueo directo (sin balón),perímetro,201,213,Exito
+Josep Puerto,ataque,pase,poste bajo,214,220,Exito
+Josep Puerto,defensa,ayuda,media distancia,221,225,Exito
+Josep Puerto,ataque,tiro,línea de tres,230,234,Fallo
+Josep Puerto,defensa,defensa balón,zona central,238,248,Fallo
+Josep Puerto,defensa,defensa del bloqueo,línea de tres,249,254,Fallo
+Josep Puerto,defensa,defensa balón,zona,258,263,Fallo
+Josep Puerto,defensa,defensa del bloqueo,zona central,268,277,Exito
+Josep Puerto,defensa,closeout,zona central,279,290,Exito
+Josep Puerto,ataque,pase,zona central,292,296,Exito
+Josep Puerto,ataque,pase,perímetro,299,305,Exito
+Josep Puerto,ataque,corte,media distancia,308,315,Exito
+Josep Puerto,defensa,rotación,zona central,316,322,Fallo
+Josep Puerto,ataque,tiro,esquina,323,334,Fallo
+Josep Puerto,ataque,corte,media distancia,335,341,Exito
+Josep Puerto,defensa,defensa balón,zona central,344,349,Fallo
+Josep Puerto,ataque,corte,media distancia,352,358,Fallo
+Josep Puerto,ataque,corte,media distancia,363,369,Fallo
+Josep Puerto,ataque,bloqueo directo (sin balón),perímetro,374,382,Fallo
+Josep Puerto,ataque,tiro,línea de tres,383,390,Fallo
+Josep Puerto,ataque,pase,zona,393,402,Exito
+Josep Puerto,defensa,closeout,zona central,405,413,Exito
+Josep Puerto,ataque,tiro,poste bajo,414,422,Exito
+Josep Puerto,defensa,rotación,zona,427,436,Exito
+Josep Puerto,ataque,bloqueo directo (con balón),media distancia,441,448,Exito
+Josep Puerto,ataque,pase,perímetro,453,462,Fallo
+Josep Puerto,ataque,tiro,línea de tres,463,467,Exito
+Josep Puerto,ataque,bloqueo directo (sin balón),zona central,469,475,Exito
+Josep Puerto,ataque,pase,poste bajo,480,492,Exito
+Josep Puerto,ataque,penetración,zona central,497,503,Exito
+Josep Puerto,ataque,bloqueo directo (con balón),esquina,504,509,Exito
+Josep Puerto,defensa,rotación,esquina,511,521,Exito
+Josep Puerto,ataque,bloqueo directo (con balón),esquina,524,534,Fallo
+Josep Puerto,ataque,pase,media distancia,537,545,Exito
+Josep Puerto,defensa,defensa balón,perímetro,550,562,Fallo
+Josep Puerto,ataque,tiro,poste bajo,565,574,Exito
+Josep Puerto,ataque,corte,media distancia,577,583,Fallo
+Josep Puerto,ataque,tiro,perímetro,588,593,Fallo
+Juancho Hernangomez,defensa,rotación,zona central,0,4,Exito
+Juancho Hernangomez,ataque,corte,media distancia,5,11,Fallo
+Juancho Hernangomez,ataque,corte,zona central,16,24,Fallo
+Juancho Hernangomez,ataque,penetración,media distancia,27,33,Exito
+Juancho Hernangomez,defensa,defensa balón,zona,37,46,Fallo
+Juancho Hernangomez,ataque,tiro,zona central,50,57,Fallo
+Juancho Hernangomez,defensa,defensa del bloqueo,línea de tres,61,69,Exito
+Juancho Hernangomez,ataque,bloqueo directo (con balón),zona,73,80,Exito
+Juancho Hernangomez,ataque,tiro,media distancia,83,93,Exito
+Juancho Hernangomez,ataque,bloqueo directo (sin balón),línea de tres,94,98,Exito
+Juancho Hernangomez,ataque,pase,zona,103,108,Exito
+Juancho Hernangomez,defensa,closeout,esquina,111,123,Fallo
+Juancho Hernangomez,defensa,defensa del bloqueo,media distancia,127,131,Exito
+Juancho Hernangomez,defensa,closeout,poste bajo,132,144,Fallo
+Juancho Hernangomez,defensa,defensa del bloqueo,perímetro,149,160,Exito
+Juancho Hernangomez,ataque,bloqueo directo (con balón),zona central,164,169,Exito
+Juancho Hernangomez,ataque,bloqueo directo (sin balón),zona,170,178,Exito
+Juancho Hernangomez,defensa,ayuda,línea de tres,183,190,Exito
+Juancho Hernangomez,ataque,pase,poste bajo,192,196,Exito
+Juancho Hernangomez,ataque,bloqueo directo (con balón),línea de tres,201,213,Exito
+Juancho Hernangomez,ataque,corte,zona,216,227,Exito
+Juancho Hernangomez,ataque,corte,media distancia,229,238,Fallo
+Juancho Hernangomez,ataque,tiro,media distancia,240,252,Exito
+Juancho Hernangomez,ataque,corte,zona,254,262,Fallo
+Juancho Hernangomez,ataque,penetración,zona central,266,272,Fallo
+Juancho Hernangomez,ataque,tiro,poste bajo,277,285,Fallo
+Juancho Hernangomez,ataque,bloqueo directo (sin balón),zona,289,297,Exito
+Juancho Hernangomez,defensa,rotación,zona central,302,308,Fallo
+Juancho Hernangomez,ataque,tiro,perímetro,310,322,Fallo
+Juancho Hernangomez,defensa,defensa balón,línea de tres,327,335,Fallo
+Juancho Hernangomez,ataque,pase,poste bajo,339,347,Exito
+Juancho Hernangomez,defensa,defensa del bloqueo,línea de tres,350,355,Fallo
+Juancho Hernangomez,ataque,penetración,poste bajo,356,360,Exito
+Juancho Hernangomez,ataque,tiro,poste bajo,364,372,Fallo
+Juancho Hernangomez,defensa,defensa balón,línea de tres,374,382,Fallo
+Juancho Hernangomez,ataque,corte,perímetro,387,399,Exito
+Juancho Hernangomez,defensa,ayuda,línea de tres,403,414,Fallo
+Juancho Hernangomez,ataque,pase,zona,416,421,Exito
+Juancho Hernangomez,defensa,closeout,zona central,424,432,Exito
+Juancho Hernangomez,ataque,bloqueo directo (sin balón),esquina,435,439,Exito
+Juancho Hernangomez,ataque,bloqueo directo (con balón),media distancia,444,451,Exito
+Juancho Hernangomez,defensa,defensa del bloqueo,zona central,456,460,Fallo
+Juancho Hernangomez,defensa,defensa balón,zona central,465,473,Fallo
+Juancho Hernangomez,ataque,corte,esquina,476,487,Exito
+Juancho Hernangomez,defensa,defensa balón,esquina,492,503,Exito
+Juancho Hernangomez,defensa,ayuda,media distancia,508,514,Fallo
+Juancho Hernangomez,defensa,rotación,zona central,519,530,Fallo
+Juancho Hernangomez,ataque,pase,perímetro,535,539,Exito
+Juancho Hernangomez,ataque,tiro,esquina,540,550,Fallo
+Juancho Hernangomez,ataque,pase,esquina,553,557,Exito
+Juancho Hernangomez,ataque,bloqueo directo (sin balón),perímetro,562,570,Exito
+Juancho Hernangomez,ataque,pase,poste bajo,573,581,Fallo
+Juancho Hernangomez,ataque,penetración,esquina,583,587,Fallo
+Juancho Hernangomez,ataque,bloqueo directo (sin balón),línea de tres,589,593,Exito
+Willy Hernangomez,defensa,rotación,esquina,0,10,Exito
+Willy Hernangomez,defensa,defensa balón,perímetro,11,15,Exito
+Willy Hernangomez,defensa,closeout,poste bajo,17,29,Exito
+Willy Hernangomez,defensa,rotación,esquina,31,42,Fallo
+Willy Hernangomez,ataque,pase,línea de tres,47,56,Exito
+Willy Hernangomez,ataque,bloqueo directo (con balón),línea de tres,57,67,Exito
+Willy Hernangomez,defensa,closeout,zona,68,75,Fallo
+Willy Hernangomez,ataque,corte,línea de tres,77,88,Fallo
+Willy Hernangomez,ataque,bloqueo directo (con balón),poste bajo,91,95,Exito
+Willy Hernangomez,defensa,rotación,perímetro,97,105,Fallo
+Willy Hernangomez,ataque,pase,perímetro,108,116,Exito
+Willy Hernangomez,ataque,penetración,perímetro,119,130,Exito
+Willy Hernangomez,ataque,tiro,línea de tres,131,137,Exito
+Willy Hernangomez,defensa,rotación,poste bajo,142,151,Fallo
+Willy Hernangomez,ataque,penetración,línea de tres,152,158,Fallo
+Willy Hernangomez,defensa,defensa balón,perímetro,163,170,Fallo
+Willy Hernangomez,defensa,closeout,línea de tres,175,179,Fallo
+Willy Hernangomez,ataque,tiro,línea de tres,183,190,Fallo
+Willy Hernangomez,defensa,closeout,zona,195,202,Fallo
+Willy Hernangomez,ataque,penetración,zona,204,215,Fallo
+Willy Hernangomez,ataque,penetración,zona,218,230,Fallo
+Willy Hernangomez,ataque,penetración,zona central,235,245,Exito
+Willy Hernangomez,ataque,tiro,esquina,248,259,Exito
+Willy Hernangomez,ataque,corte,línea de tres,260,264,Fallo
+Willy Hernangomez,defensa,defensa balón,poste bajo,265,276,Exito
+Willy Hernangomez,ataque,tiro,zona central,281,290,Exito
+Willy Hernangomez,defensa,ayuda,línea de tres,295,301,Exito
+Willy Hernangomez,ataque,bloqueo directo (con balón),zona central,305,309,Exito
+Willy Hernangomez,defensa,rotación,zona central,314,320,Fallo
+Willy Hernangomez,ataque,tiro,poste bajo,321,326,Fallo
+Willy Hernangomez,ataque,tiro,zona central,330,335,Exito
+Willy Hernangomez,ataque,bloqueo directo (sin balón),esquina,340,352,Exito
+Willy Hernangomez,ataque,penetración,zona central,356,362,Exito
+Willy Hernangomez,ataque,pase,zona central,364,376,Exito
+Willy Hernangomez,ataque,pase,zona,380,386,Exito
+Willy Hernangomez,ataque,tiro,perímetro,389,395,Fallo
+Willy Hernangomez,ataque,bloqueo directo (sin balón),perímetro,396,400,Fallo
+Willy Hernangomez,ataque,penetración,zona central,403,409,Fallo
+Willy Hernangomez,ataque,corte,perímetro,412,423,Exito
+Willy Hernangomez,ataque,penetración,zona central,424,431,Fallo
+Willy Hernangomez,ataque,corte,zona central,432,444,Exito
+Willy Hernangomez,ataque,corte,poste bajo,445,451,Exito
+Willy Hernangomez,ataque,tiro,esquina,454,462,Exito
+Willy Hernangomez,ataque,penetración,línea de tres,467,472,Fallo
+Willy Hernangomez,ataque,bloqueo directo (con balón),poste bajo,473,477,Exito
+Willy Hernangomez,ataque,tiro,poste bajo,480,488,Exito
+Willy Hernangomez,ataque,bloqueo directo (con balón),zona central,492,500,Fallo
+Willy Hernangomez,ataque,pase,esquina,505,513,Exito
+Willy Hernangomez,ataque,corte,perímetro,514,525,Exito
+Willy Hernangomez,ataque,bloqueo directo (con balón),zona,529,534,Exito
+Willy Hernangomez,ataque,corte,línea de tres,536,544,Exito
+Willy Hernangomez,ataque,bloqueo directo (sin balón),línea de tres,546,556,Exito
+Willy Hernangomez,ataque,corte,poste bajo,561,573,Exito
+Willy Hernangomez,ataque,pase,media distancia,576,586,Exito
+Willy Hernangomez,defensa,defensa del bloqueo,zona central,587,596,Fallo
