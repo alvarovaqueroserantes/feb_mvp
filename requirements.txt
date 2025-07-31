@@ -3,4 +3,6 @@ pandas
 numpy
 plotly
 scikit-learn
-streamlit-option-menu
+scipy
+statsmodels
+seaborn
