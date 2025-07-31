@@ -1,0 +1,181 @@
+time,player,x,y,action
+0,A1,21.0,7.5,ball hold
+0,A2,20.0,11.0,static
+0,A3,20.0,4.0,static
+0,A4,23.0,5.0,static
+0,A5,23.0,10.0,static
+0,D1,20.0,7.5,ball pressure
+0,D2,19.5,11.0,static
+0,D3,19.5,4.0,static
+0,D4,22.5,5.0,static
+0,D5,22.5,10.0,static
+1,A1,21.0,7.5,ball hold
+1,A2,20.0,11.0,static
+1,A3,20.0,4.0,static
+1,A4,23.0,5.0,static
+1,A5,23.0,10.0,static
+1,D1,20.0,7.5,ball pressure
+1,D2,19.5,11.0,static
+1,D3,19.5,4.0,static
+1,D4,22.5,5.0,static
+1,D5,22.5,10.0,static
+2,A1,21.0,7.5,ball hold
+2,A2,20.0,11.0,static
+2,A3,20.0,4.0,static
+2,A4,23.0,5.0,static
+2,A5,23.0,10.0,static
+2,D1,20.0,7.5,ball pressure
+2,D2,19.5,11.0,static
+2,D3,19.5,4.0,static
+2,D4,22.5,5.0,static
+2,D5,22.5,10.0,static
+3,A1,20.5,7.0,pass
+3,A2,22.0,13.0,cut
+3,A3,20.0,4.0,catch
+3,A4,21.0,6.5,flare screen
+3,A5,23.0,10.0,static
+3,D1,19.5,7.0,ball pressure
+3,D2,21.0,12.0,sliding
+3,D3,19.5,4.0,static
+3,D4,22.0,6.0,drop coverage
+3,D5,22.5,10.0,static
+4,A1,19.0,7.0,static
+4,A2,25.0,14.0,cut
+4,A3,19.0,4.0,dribble
+4,A4,21.0,6.5,flare screen
+4,A5,23.0,10.0,static
+4,D1,18.0,7.0,sliding
+4,D2,24.0,13.5,sliding
+4,D3,18.5,4.2,ball pressure
+4,D4,22.0,6.0,drop coverage
+4,D5,22.5,10.0,static
+5,A1,17.0,7.0,static
+5,A2,28.0,15.0,static
+5,A3,18.0,4.0,static
+5,A4,21.0,6.5,static
+5,A5,23.0,10.0,static
+5,D1,16.5,7.0,sliding
+5,D2,27.0,14.5,sliding
+5,D3,17.5,4.0,ball pressure
+5,D4,22.0,6.0,drop coverage
+5,D5,22.5,10.0,static
+6,A1,18.0,7.5,catch
+6,A2,28.0,15.0,static
+6,A3,15.0,4.0,pass
+6,A4,19.0,7.5,move to screen
+6,A5,23.0,9.0,static
+6,D1,17.0,7.5,ball pressure
+6,D2,27.0,14.5,static
+6,D3,14.0,4.5,sliding
+6,D4,18.0,7.0,static
+6,D5,22.5,9.5,static
+7,A1,18.0,7.0,dribble
+7,A2,26.0,13.0,relocate
+7,A3,15.0,7.0,relocate
+7,A4,18.0,7.5,on-ball screen
+7,A5,23.0,8.0,static
+7,D1,17.5,7.5,over screen
+7,D2,25.0,13.0,sliding
+7,D3,14.5,7.0,sliding
+7,D4,18.5,6.5,drop coverage
+7,D5,22.0,8.5,static
+8,A1,20.0,9.0,dribble
+8,A2,26.0,13.0,static
+8,A3,15.0,3.0,static
+8,A4,20.0,6.0,roll
+8,A5,23.0,7.0,static
+8,D1,19.0,8.5,chase
+8,D2,26.0,12.5,static
+8,D3,15.5,3.5,static
+8,D4,19.5,5.5,drop coverage
+8,D5,21.0,7.0,help defense
+9,A1,22.0,9.5,dribble
+9,A2,26.0,13.0,static
+9,A3,15.0,3.0,static
+9,A4,21.5,4.0,roll
+9,A5,23.0,6.0,static
+9,D1,21.0,9.0,chase
+9,D2,26.0,12.5,static
+9,D3,15.5,3.5,static
+9,D4,20.0,5.0,drop coverage
+9,D5,20.5,5.0,help defense
+10,A1,22.0,9.5,pass
+10,A2,26.0,13.0,static
+10,A3,15.0,3.0,static
+10,A4,21.5,4.0,catch
+10,A5,23.0,5.0,static
+10,D1,22.0,8.5,recover
+10,D2,26.0,12.5,static
+10,D3,15.5,3.5,static
+10,D4,20.5,4.5,contest
+10,D5,20.5,4.0,contest
+11,A1,22.0,8.0,static
+11,A2,26.0,13.0,static
+11,A3,15.0,3.0,static
+11,A4,19.0,6.0,pop
+11,A5,23.0,4.0,rebound position
+11,D1,21.0,7.0,help defense
+11,D2,26.0,12.5,static
+11,D3,15.5,3.5,static
+11,D4,19.5,5.5,slide
+11,D5,19.5,5.0,contest
+12,A1,20.0,7.0,static
+12,A2,26.0,13.0,static
+12,A3,18.0,1.0,backdoor cut
+12,A4,23.0,7.5,pop screen
+12,A5,23.0,3.5,static
+12,D1,20.0,6.5,help defense
+12,D2,26.0,12.5,static
+12,D3,17.0,2.0,lost man
+12,D4,23.0,7.0,switch
+12,D5,22.5,4.0,recover
+13,A1,20.0,7.0,static
+13,A2,28.0,15.0,static
+13,A3,19.0,2.0,static
+13,A4,23.0,7.5,pass
+13,A5,23.0,3.0,static
+13,D1,19.0,6.5,static
+13,D2,27.0,14.0,sliding
+13,D3,18.5,2.5,recover
+13,D4,23.0,7.5,ball pressure
+13,D5,22.5,3.5,static
+14,A1,20.0,7.0,static
+14,A2,28.0,15.0,catch
+14,A3,20.0,2.0,static
+14,A4,23.0,7.5,static
+14,A5,23.0,2.5,static
+14,D1,18.0,7.0,static
+14,D2,28.0,14.5,contest
+14,D3,19.5,2.5,static
+14,D4,23.0,7.5,static
+14,D5,22.0,2.5,box out
+15,A1,20.0,7.0,static
+15,A2,28.0,15.0,shot
+15,A3,20.0,2.0,static
+15,A4,23.0,7.5,static
+15,A5,24.0,2.0,offensive rebound
+15,D1,20.0,5.0,box out
+15,D2,28.0,15.0,contest
+15,D3,20.0,2.0,box out
+15,D4,22.0,7.0,box out
+15,D5,23.0,2.0,box out
+16,A1,20.0,7.0,static
+16,A2,28.0,15.0,static
+16,A3,20.0,2.0,static
+16,A4,23.0,7.5,static
+16,A5,24.0,1.5,fight rebound
+16,D1,20.0,5.0,static
+16,D2,28.0,15.0,static
+16,D3,20.0,2.0,static
+16,D4,22.0,7.0,static
+16,D5,23.0,1.5,defensive rebound
+17,A1,20.0,7.0,possession over
+17,A2,28.0,15.0,static
+17,A3,20.0,2.0,static
+17,A4,23.0,7.5,static
+17,A5,24.0,1.5,static
+17,D1,20.0,5.0,static
+17,D2,28.0,15.0,static
+17,D3,20.0,2.0,static
+17,D4,22.0,7.0,static
+17,D5,23.0,1.5,static

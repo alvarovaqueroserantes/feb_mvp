@@ -1,0 +1,38 @@
+/* Remove Streamlit's default branding */
+div[data-testid="stToolbar"],
+div[data-testid="stDecoration"],
+div[data-testid="stStatusWidget"] {
+    visibility: hidden;
+    height: 0%;
+    position: fixed;
+}
+
+/* Card container for charts and metrics */
+.card {
+    background-color: #FFFFFF;
+    border: 1px solid #E0E0E0;
+    border-radius: 8px;
+    padding: 25px;
+    margin-bottom: 25px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    transition: all 0.3s ease-in-out;
+}
+
+.card:hover {
+    box-shadow: 0 6px 16px rgba(0,0,0,0.08);
+    transform: translateY(-2px);
+}
+
+/* Custom header style */
+h4 {
+    color: #264653; /* A darker, complementary color from the Bauhaus palette */
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+/* Style for st.metric to fit the card design */
+div[data-testid="stMetric"] {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+}
