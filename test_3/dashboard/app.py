@@ -402,7 +402,7 @@ df = load_data()
 
 # Sidebar - Professional Design
 with st.sidebar:
-    st.title("🇪🇸 Spanish Basketball Analytics Pro")
+    st.title("Spanish Basketball Analytics Pro")
     st.markdown("### Advanced Filters")
     st.divider()
     
@@ -463,7 +463,7 @@ if selected_player != 'All Players':
     filtered_df = filtered_df[filtered_df['player'] == selected_player]
 
 # Main Content - Professional Layout
-st.title("🇪🇸 Elite Basketball Performance Intelligence")
+st.title("Elite Basketball Performance Intelligence")
 st.markdown("""
     **Advanced Biometric-Tactical Integration System**  
     *Spanish National Team - Next Generation Performance Analytics*
