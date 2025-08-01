@@ -1668,7 +1668,7 @@ elif analysis_focus == "Team Performance":
 st.divider()
 st.markdown("""
     <div class='footer'>
-        <b>Advanced Basketball Intelligence System v5.0</b><br>
+        <b>Advanced Basketball Intelligence System</b><br>
         <i>Spanish National Team - Integrated Physiological & Tactical Analysis</i><br>
     </div>
 """, unsafe_allow_html=True)
