@@ -235,65 +235,29 @@ SPAIN_COLORS = [PRIMARY_COLOR, ACCENT_COLOR, SECONDARY_COLOR]
 # Load data with enhanced features
 @st.cache_data
 def load_data():
-    # Simulate dataset with advanced metrics
-    np.random.seed(42)
-    times = np.linspace(0, 24, 240)
-    players = ['A1', 'A2', 'A3', 'A4', 'A5', 'D1', 'D2', 'D3', 'D4', 'D5']
+    # Load the integrated dataset
+    df = pd.read_csv('integrated_dataset.csv')
+    
+    # Load additional data for shot simulation
+    biometric_df = pd.read_csv('biometric_data.csv')
+    possession_df = pd.read_csv('simulated_possession.csv')
+    
+    # Merge datasets
+    df = pd.merge(df, possession_df, on=['time', 'player', 'x', 'y', 'action'], how='left')
+    
+    # Define body weights by position
+    body_weights = {'Guard': 85, 'Forward': 100, 'Center': 110}  # kg
+    
+    # Add position mapping
     positions = {
         'A1': 'Guard', 'A2': 'Guard', 'A3': 'Forward', 'A4': 'Forward', 'A5': 'Center',
         'D1': 'Guard', 'D2': 'Guard', 'D3': 'Forward', 'D4': 'Forward', 'D5': 'Center'
     }
-    body_weights = {
-        'Guard': 85, 'Forward': 100, 'Center': 110  # kg
-    }
-    actions = ['run', 'pass', 'shot', 'dribble', 'defend', 'rebound', 'steal', 'block']
+    df['position'] = df['player'].map(positions)
     
-    data = []
-    for t in times:
-        for p in players:
-            pos = positions[p]
-            heart_rate = np.random.normal(160, 15)
-            velocity = np.random.uniform(0.5, 8)
-            acceleration = np.random.uniform(0, 7)
-            player_load = np.random.uniform(1, 10)
-            action = np.random.choice(actions, p=[0.3, 0.15, 0.1, 0.15, 0.15, 0.05, 0.05, 0.05])
-            
-            # Position based on player and time
-            if p.startswith('A'):
-                x = np.random.uniform(0, 28)
-                y = np.random.uniform(0, 15)
-                dist_to_basket = np.sqrt((x - 0)**2 + (y - 7.5)**2)
-            else:
-                # Defenders stay closer to their own basket
-                x = np.random.uniform(20, 28)
-                y = np.random.uniform(0, 15)
-                dist_to_basket = np.sqrt((x - 28)**2 + (y - 7.5)**2)
-                
-            # Calculate advanced metrics
-            metabolic_power = (velocity * acceleration) / body_weights[pos]
-            high_intensity_burst = 1 if acceleration > 3 else 0
-            
-            # Add fatigue effect - heart rate increases over time
-            if t > 20:
-                heart_rate = min(heart_rate * (1 + (t-20)*0.01), 200)
-            
-            data.append({
-                'time': t,
-                'player': p,
-                'position': pos,
-                'heart_rate': heart_rate,
-                'velocity': velocity,
-                'acceleration': acceleration,
-                'player_load': player_load,
-                'action': action,
-                'x': x,
-                'y': y,
-                'dist_to_basket': dist_to_basket,
-                'metabolic_power': metabolic_power,
-                'high_intensity_burst': high_intensity_burst
-            })
-            
-    df = pd.DataFrame(data)
+    # Calculate advanced metrics
+    df['metabolic_power'] = (df['velocity'] * df['acceleration']) / df['position'].map(body_weights)
+    df['high_intensity_burst'] = (df['acceleration'] > 3).astype(int)
     
     # Enhanced shot simulation with court zones
     shots = df[df['action'] == 'shot'].copy()
