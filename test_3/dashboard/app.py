@@ -235,9 +235,6 @@ SPAIN_COLORS = [PRIMARY_COLOR, ACCENT_COLOR, SECONDARY_COLOR]
 # Load data with enhanced features
 @st.cache_data
 def load_data():
-<<<<<<< HEAD
-    df = pd.read_csv('../data/integrated_dataset.csv')
-=======
     # Simulate dataset with advanced metrics
     np.random.seed(42)
     times = np.linspace(0, 24, 240)
@@ -297,7 +294,6 @@ def load_data():
             })
             
     df = pd.DataFrame(data)
->>>>>>> parent of fe91d8f (Update app.py)
     
     # Enhanced shot simulation with court zones
     shots = df[df['action'] == 'shot'].copy()
@@ -403,6 +399,7 @@ def load_data():
     return df
 
 df = load_data()
+
 
 # Sidebar - Professional Design
 with st.sidebar:
