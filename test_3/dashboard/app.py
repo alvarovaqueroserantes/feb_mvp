@@ -1670,6 +1670,5 @@ st.markdown("""
     <div class='footer'>
         <b>Advanced Basketball Intelligence System v5.0</b><br>
         <i>Spanish National Team - Integrated Physiological & Tactical Analysis</i><br>
-        Developed with Streamlit, Plotly, and Scikit-Learn
     </div>
 """, unsafe_allow_html=True)
