@@ -235,67 +235,10 @@ SPAIN_COLORS = [PRIMARY_COLOR, ACCENT_COLOR, SECONDARY_COLOR]
 # Load data with enhanced features
 @st.cache_data
 def load_data():
-    # Simulate dataset with advanced metrics
-    np.random.seed(42)
-    times = np.linspace(0, 24, 240)
-    players = ['A1', 'A2', 'A3', 'A4', 'A5', 'D1', 'D2', 'D3', 'D4', 'D5']
-    positions = {
-        'A1': 'Guard', 'A2': 'Guard', 'A3': 'Forward', 'A4': 'Forward', 'A5': 'Center',
-        'D1': 'Guard', 'D2': 'Guard', 'D3': 'Forward', 'D4': 'Forward', 'D5': 'Center'
-    }
-    body_weights = {
-        'Guard': 85, 'Forward': 100, 'Center': 110  # kg
-    }
-    actions = ['run', 'pass', 'shot', 'dribble', 'defend', 'rebound', 'steal', 'block']
-    
-    data = []
-    for t in times:
-        for p in players:
-            pos = positions[p]
-            heart_rate = np.random.normal(160, 15)
-            velocity = np.random.uniform(0.5, 8)
-            acceleration = np.random.uniform(0, 7)
-            player_load = np.random.uniform(1, 10)
-            action = np.random.choice(actions, p=[0.3, 0.15, 0.1, 0.15, 0.15, 0.05, 0.05, 0.05])
-            
-            # Position based on player and time
-            if p.startswith('A'):
-                x = np.random.uniform(0, 28)
-                y = np.random.uniform(0, 15)
-                dist_to_basket = np.sqrt((x - 0)**2 + (y - 7.5)**2)
-            else:
-                # Defenders stay closer to their own basket
-                x = np.random.uniform(20, 28)
-                y = np.random.uniform(0, 15)
-                dist_to_basket = np.sqrt((x - 28)**2 + (y - 7.5)**2)
-                
-            # Calculate advanced metrics
-            metabolic_power = (velocity * acceleration) / body_weights[pos]
-            high_intensity_burst = 1 if acceleration > 3 else 0
-            
-            # Add fatigue effect - heart rate increases over time
-            if t > 20:
-                heart_rate = min(heart_rate * (1 + (t-20)*0.01), 200)
-            
-            data.append({
-                'time': t,
-                'player': p,
-                'position': pos,
-                'heart_rate': heart_rate,
-                'velocity': velocity,
-                'acceleration': acceleration,
-                'player_load': player_load,
-                'action': action,
-                'x': x,
-                'y': y,
-                'dist_to_basket': dist_to_basket,
-                'metabolic_power': metabolic_power,
-                'high_intensity_burst': high_intensity_burst
-            })
-            
-    df = pd.DataFrame(data)
+    df = pd.read_csv('../data/integrated_dataset.csv')
     
     # Enhanced shot simulation with court zones
+    np.random.seed(42)
     shots = df[df['action'] == 'shot'].copy()
     shot_zones = []
     for idx, row in shots.iterrows():
@@ -352,54 +295,9 @@ def load_data():
             ball_handler = actions[0]
         df.loc[(df['time'] == t) & (df['player'] == ball_handler), 'ball_handler'] = True
     
-    # Calculate advanced metrics
-    # Physical Load Metrics
-    df['hr_stress_index'] = df.groupby('player')['heart_rate'].transform(lambda x: (x.max() - x.min()) / len(x))
-    
-    # Movement Efficiency Metrics
-    df['effective_distance'] = np.where(
-        (df['x'] >= 25) & (df['y'] >= 5) & (df['y'] <= 10), 
-        df['velocity'], 
-        0
-    )
-    
-    # Tactical Metrics
-    offensive_players = df[df['role'] == 'Offense']
-    spacing_index = offensive_players.groupby('time')['dist_to_basket'].std().reset_index()
-    spacing_index.columns = ['time', 'spacing_index']
-    df = df.merge(spacing_index, on='time', how='left')
-    
-    # Rebound positioning score
-    shot_times = df[df['action'] == 'shot']['time'].unique()
-    for t in shot_times:
-        shot_df = df[df['time'] == t]
-        for _, row in shot_df.iterrows():
-            player = row['player']
-            x, y = row['x'], row['y']
-            # Calculate distance to nearest opponent
-            opponents = df[(df['time'] == t) & (df['role'] != row['role'])][['x', 'y']]
-            if not opponents.empty:
-                dist_to_opponent = distance.cdist([(x, y)], opponents).min()
-                df.loc[(df['time'] == t) & (df['player'] == player), 'rebound_score'] = 1 / (row['dist_to_basket'] + dist_to_opponent + 0.1)
-    
-    # Time-Derived Features
-    df['fatigue_slope'] = df.groupby('player')['heart_rate'].diff() / df.groupby('player')['time'].diff()
-    
-    # Add fatigue index (cumulative fatigue)
-    df['fatigue_index'] = df.groupby('player')['player_load'].cumsum() / 100
-    
-    # Add recovery metrics
-    df['recovery_rate'] = df.groupby('player')['heart_rate'].transform(
-        lambda x: x.diff().rolling(5, min_periods=1).mean()
-    )
-    
-    # Add PlayerLoad metrics
-    df['player_load_per_min'] = df['player_load'] / (df['time'] / 60)
-    
     return df
 
 df = load_data()
-
 # Sidebar - Professional Design
 with st.sidebar:
     st.title("Elite Basketball Performance")
