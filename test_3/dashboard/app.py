@@ -402,7 +402,7 @@ df = load_data()
 
 # Sidebar - Professional Design
 with st.sidebar:
-    st.title("Spanish Basketball Analytics Pro")
+    st.title("Elite Basketball Performance Intelligence")
     st.markdown("### Advanced Filters")
     st.divider()
     
