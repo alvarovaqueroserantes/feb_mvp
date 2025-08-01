@@ -235,7 +235,7 @@ SPAIN_COLORS = [PRIMARY_COLOR, ACCENT_COLOR, SECONDARY_COLOR]
 # Load data with enhanced features
 @st.cache_data
 def load_data():
-    df = pd.read_csv('../data/integrated_dataset.csv')
+    df = pd.read_csv('data/integrated_dataset.csv')
     
     # Enhanced shot simulation with court zones
     np.random.seed(42)
