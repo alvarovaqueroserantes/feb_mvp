@@ -236,11 +236,11 @@ SPAIN_COLORS = [PRIMARY_COLOR, ACCENT_COLOR, SECONDARY_COLOR]
 @st.cache_data
 def load_data():
     # Load the integrated dataset
-    df = pd.read_csv('integrated_dataset.csv')
+    df = pd.read_csv(r'../data/integrated_dataset.csv')
     
     # Load additional data for shot simulation
-    biometric_df = pd.read_csv('biometric_data.csv')
-    possession_df = pd.read_csv('simulated_possession.csv')
+    biometric_df = pd.read_csv(r'../data/biometric_data.csv')
+    possession_df = pd.read_csv(r'../data/simulated_possession.csv')
     
     # Merge datasets
     df = pd.merge(df, possession_df, on=['time', 'player', 'x', 'y', 'action'], how='left')
