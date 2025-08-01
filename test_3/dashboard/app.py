@@ -402,7 +402,7 @@ df = load_data()
 
 # Sidebar - Professional Design
 with st.sidebar:
-    st.title("Elite Basketball Performance Intelligence")
+    st.title("Elite Basketball Performance")
     st.markdown("### Advanced Filters")
     st.divider()
     
