@@ -533,11 +533,11 @@ if analysis_focus == "Overview":
         # Tactical Insights
         st.subheader("Tactical Performance Insights")
         insights = [
-            "**Pick-and-Roll Execution:** A1's acceleration increased by 40% during drive phase",
-            "**Defensive Coordination:** D4-D5 communication gap (1.2s) exploited in 3 possessions",
-            "**Shooting Efficiency:** Corner 3PT% 48% vs Wing 3PT% 35%",
-            "**PlayerLoad Distribution:** Guards carry 55% of offensive load vs 45% for bigs",
-            "**Recovery Patterns:** Backcourt recovers 25% faster after high-intensity sprints"
+            "Pick-and-Roll Execution: A1's acceleration increased by 40% during drive phase",
+            "Defensive Coordination: D4-D5 communication gap (1.2s) exploited in 3 possessions",
+            "Shooting Efficiency: Corner 3PT% 48% vs Wing 3PT% 35%",
+            "PlayerLoad Distribution: Guards carry 55% of offensive load vs 45% for bigs",
+            "Recovery Patterns: Backcourt recovers 25% faster after high-intensity sprints"
         ]
         for insight in insights:
             st.markdown(f"<div class='insight-card'>{insight}</div>", unsafe_allow_html=True)
