@@ -16,6 +16,15 @@ from scipy.spatial import distance
 from scipy.stats import pearsonr
 from scipy.signal import savgol_filter
 
+
+
+# Get the directory of this script (app.py)
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
+# Construct full paths to each CSV file
+data_dir = os.path.join(BASE_DIR, '..', 'data')
+
+
 # Configuration - Professional Dark Theme
 st.set_page_config(
     layout="wide", 
@@ -236,11 +245,9 @@ SPAIN_COLORS = [PRIMARY_COLOR, ACCENT_COLOR, SECONDARY_COLOR]
 @st.cache_data
 def load_data():
     # Load the integrated dataset
-    df = pd.read_csv('../data/integrated_dataset.csv')
-    
-    # Load additional data for shot simulation
-    biometric_df = pd.read_csv('.../data/biometric_data.csv')
-    possession_df = pd.read_csv('../data/simulated_possession.csv')
+    df = pd.read_csv(os.path.join(data_dir, 'integrated_dataset.csv'))
+    biometric_df = pd.read_csv(os.path.join(data_dir, 'biometric_data.csv'))
+    possession_df = pd.read_csv(os.path.join(data_dir, 'simulated_possession.csv'))
     
     # Merge datasets
     df = pd.merge(df, possession_df, on=['time', 'player', 'x', 'y', 'action'], how='left')
