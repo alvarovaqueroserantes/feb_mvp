@@ -1027,10 +1027,10 @@ elif analysis_focus == "Heart Rate Analysis":
         st.subheader("Optimal HR Zones")
         st.markdown("""
         <div class='tactical-card'>
-            - **Optimal (120-150 bpm):** 42% of time<br>
-            - **Effective (151-170 bpm):** 35% of time<br>
-            - **High Stress (171-190 bpm):** 18% of time<br>
-            - **Critical (>190 bpm):** 5% of time
+            - Optimal (120-150 bpm): 42% of time<br>
+            - Effective (151-170 bpm): 35% of time<br>
+            - High Stress (171-190 bpm): 18% of time<br>
+            - Critical (>190 bpm): 5% of time
         </div>
         """, unsafe_allow_html=True)
         
@@ -1042,9 +1042,9 @@ elif analysis_focus == "Heart Rate Analysis":
         st.subheader("Recommendations")
         st.markdown("""
         <div class='tactical-card'>
-            - **Guards:** Maintain HR <170 bpm for optimal playmaking<br>
-            - **Bigs:** Limit time in Critical zone to <5%<br>
-            - **Team:** Implement HR-controlled rotations
+            - Guards: Maintain HR <170 bpm for optimal playmaking<br>
+            - Bigs: Limit time in Critical zone to <5%<br>
+            - Team: Implement HR-controlled rotations
         </div>
         """, unsafe_allow_html=True)
 
@@ -1296,10 +1296,10 @@ elif analysis_focus == "Tactical Insights":
             st.subheader("Player Recommendations")
             st.markdown("""
             <div class='tactical-card'>
-                - **Guard A1:** Reduce static time by 15%<br>
-                - **Center A4:** Optimize roll timing (peak accel 0.3s after contact)<br>
-                - **Forward A3:** Increase corner 3PT attempts by 20%<br>
-                - **All Players:** Maintain HR <170 bpm during shot creation
+                - Guard A1: Reduce static time by 15%<br>
+                - Center A4: Optimize roll timing (peak accel 0.3s after contact)<br>
+                - Forward A3: Increase corner 3PT attempts by 20%<br>
+                - All Players: Maintain HR <170 bpm during shot creation
             </div>
             """, unsafe_allow_html=True)
 
@@ -1399,10 +1399,10 @@ elif analysis_focus == "Recovery Metrics":
         st.subheader("Recovery Recommendations")
         st.markdown("""
         <div class='tactical-card'>
-            - **Player A1:** Increase hydration during breaks<br>
-            - **Player D3:** Consider reduced minutes in 3rd quarter<br>
-            - **Team:** Implement active recovery protocols<br>
-            - **All Players:** 5-minute cool-down routine after games
+            - Player A1: Increase hydration during breaks<br>
+            - Player D3: Consider reduced minutes in 3rd quarter<br>
+            - Team: Implement active recovery protocols<br>
+            - All Players: 5-minute cool-down routine after games
         </div>
         """, unsafe_allow_html=True)
         
@@ -1490,10 +1490,10 @@ elif analysis_focus == "PlayerLoad Insights":
         st.subheader("Performance Impact")
         st.markdown("""
         <div class='tactical-card'>
-            - **Optimal Load Distribution:** Guards 55% vs Bigs 45%<br>
-            - **Efficiency Threshold:** >7.5 reduces opponent PPP by 18%<br>
-            - **Game Impact:** 10% ↑ efficiency = +6.2 PPG<br>
-            - **Injury Risk:** >500 AU increases injury risk by 40%
+            - Optimal Load Distribution: Guards 55% vs Bigs 45%<br>
+            - Efficiency Threshold: >7.5 reduces opponent PPP by 18%<br>
+            - Game Impact: 10% ↑ efficiency = +6.2 PPG<br>
+            - Injury Risk: >500 AU increases injury risk by 40%
         </div>
         """, unsafe_allow_html=True)
         
@@ -1610,11 +1610,11 @@ elif analysis_focus == "Team Performance":
         st.subheader("Key Observations")
         st.markdown("""
         <div class='tactical-card'>
-            - **Offense:** Top 10% in efficiency<br>
-            - **Defense:** Top 5% in efficiency<br>
-            - **Transition:** #1 in fast break points<br>
-            - **Clutch:** +12.5 net rating in last 5 min<br>
-            - **Fatigue Management:** 15% better than league avg
+            - Offense: Top 10% in efficiency<br>
+            - Defense: Top 5% in efficiency<br>
+            - Transition: #1 in fast break points<br>
+            - Clutch: +12.5 net rating in last 5 min<br>
+            - Fatigue Management: 15% better than league avg
         </div>
         """, unsafe_allow_html=True)
         
